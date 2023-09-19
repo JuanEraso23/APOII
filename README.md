@@ -65,7 +65,9 @@ Usamos Git para el control de versiones. Para conocer las versiones disponibles,
 
 ## Autores
 
-* **Juan Eraso** 
+* **Juan Coronado**
+* **Jaider Narvaéz**
+* **Juan Eraso**
 
 
 ## Licencia
