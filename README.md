@@ -3,7 +3,7 @@
 Curso de Algoritmos y Programacion II.
 
 ## Descripción
-Registro de archivos realizados dentro del curso. 
+Registro de Archivos. 
 
 ### Programas
 
