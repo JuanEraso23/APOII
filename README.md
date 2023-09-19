@@ -1,20 +1,14 @@
-# ![Logo Java](https://seeklogo.com/images/J/java-logo-7833D1D21A-seeklogo.com.png))
-
 # APOII
 
-Un párrafo de la descripción del proyecto va aquí.
+Curso de Algoritmos y Programacion II.
 
-## Empezando
+## Descripción
+Registro de archivos realizados dentro del curso. 
 
-Estas instrucciones le permitirán obtener una copia del proyecto en funcionamiento en su máquina local para fines de desarrollo y prueba. Consulte implementación para obtener notas sobre cómo implementar el proyecto en un sistema en vivo.
+### Programas
 
-### Requisitos previos
-
-Qué cosas necesitas para instalar el software y cómo instalarlas
-
-```
-Give examples
-```
+Eclipse 
+### ![ALT](https://2.bp.blogspot.com/-PqNShh8OyR0/WbnhQF1M_xI/AAAAAAAAM0Q/ZD4RsPm6hjkYrIGh61sTcY2HKxRJGsTuwCLcBGAs/s1600/eclipse-800x188.png)
 
 ### Instalación
 
@@ -34,7 +28,7 @@ until finished
 
 Termine con un ejemplo de cómo sacar algunos datos del sistema o usarlos para una pequeña demostración.
 
-## Ejecutando las pruebas
+## Archivos
 
 Explicar cómo ejecutar las pruebas automatizadas para este sistema.
 
@@ -71,7 +65,7 @@ Usamos Git para el control de versiones. Para conocer las versiones disponibles,
 
 ## Autores
 
-* **Gustavo Sánchez** 
+* **Juan Eraso** 
 
 
 ## Licencia
