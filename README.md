@@ -30,9 +30,21 @@ Termine con un ejemplo de cómo sacar algunos datos del sistema o usarlos para u
 
 ## Archivos
 
-### Dividir en pruebas de principio a fin
+### Ejercicio 01
 
-Explique qué prueban estas pruebas y por qué.
+Sin Scanner o JOptionPane.
+
+```
+Give an example
+```
+
+Scanner.
+
+```
+Give an example
+```
+
+JOptionPane.
 
 ```
 Give an example
