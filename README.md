@@ -35,7 +35,14 @@ Termine con un ejemplo de cómo sacar algunos datos del sistema o usarlos para u
 Sin Scanner o JOptionPane.
 
 ```
-Give an example
+public static void main (String [] args) {
+int d=0;
+int v=4
+int t=8;
+
+d=(v*t)
+System.out.print(d);
+}
 ```
 
 Scanner.
