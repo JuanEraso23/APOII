@@ -30,8 +30,6 @@ Termine con un ejemplo de cómo sacar algunos datos del sistema o usarlos para u
 
 ## Archivos
 
-Explicar cómo ejecutar las pruebas automatizadas para este sistema.
-
 ### Dividir en pruebas de principio a fin
 
 Explique qué prueban estas pruebas y por qué.
