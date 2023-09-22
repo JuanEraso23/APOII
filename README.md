@@ -31,6 +31,7 @@ Termine con un ejemplo de cómo sacar algunos datos del sistema o usarlos para u
 ## Archivos
 
 ### Ejercicio 01
+Calcula la distancia de un cuerpo según la velocidad y el tiempo dadas
 
 _Sin Ingreso Por Teclado_
 
@@ -57,11 +58,12 @@ import java.util.Scanner;
 public class Ej01 {
       public static void main (String [] args) {
       Scanner sc=new Scanner(System.in);
-      int d=sc.nextInt();
+      System.out.print("Ingrese la Velocidad");
       int v=sc.nextInt();
+      System.out.print("Ingrese el Tiempo (Seg)");
       int t=sc.nextInt();
       
-      d=(v*t)
+      int d=(v*t)
       System.out.print("Distancia: "+d);
       }
 }
