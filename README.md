@@ -15,18 +15,20 @@ Eclipse
 1. Ingresa a la página oficial de Eclipse.
 
 ```
-(https://www.eclipse.org/)
+[anchor](https://www.eclipse.org/)
 ```
 
-2. Presiona la opción "DOWNLOAD"
+2. Presiona la opción "Download".
 
-![ALT](C:\Users\juane\OneDrive\Imágenes\Capturas de pantalla\Captura de pantalla_20230921_093554.png)
+![ALT]()
 
-```
-until finished
-```
+3. Presiona la opción "Download x86_64".
 
-Termine con un ejemplo de cómo sacar algunos datos del sistema o usarlos para una pequeña demostración.
+![ALT]()
+
+4. Presiona la opción "Download".
+
+![ALT]()
 
 ## Archivos
 
