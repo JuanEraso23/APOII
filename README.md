@@ -3,7 +3,7 @@
 Curso de Algoritmos y Programacion II.
 
 ## Descripción
-Registro de Archivos. 
+Registro de Actividades. 
 
 ### Programas
 
@@ -32,29 +32,55 @@ Termine con un ejemplo de cómo sacar algunos datos del sistema o usarlos para u
 
 ### Ejercicio 01
 
-Sin Scanner o JOptionPane.
+_Sin Ingreso Por Teclado_
 
 ```
-public static void main (String [] args) {
-int d=0;
-int v=4
-int t=8;
+package ej01
 
-d=(v*t)
-System.out.print(d);
+public class Ej01 {
+      public static void main (String [] args) {
+      int d=0;
+      int v=4
+      int t=8;
+      
+      d=(v*t)
+      System.out.print("Distancia: "+d);
+      }
 }
 ```
 
-Scanner.
+_Scanner_
 
 ```
-Give an example
+package ej01
+import java.util.Scanner;
+public class Ej01 {
+      public static void main (String [] args) {
+      Scanner sc=new Scanner(System.in);
+      int d=sc.nextInt();
+      int v=sc.nextInt();
+      int t=sc.nextInt();
+      
+      d=(v*t)
+      System.out.print("Distancia: "+d);
+      }
+}
 ```
 
-JOptionPane.
+_JOptionPane_
 
 ```
-Give an example
+package ej01
+import javax.swing.JOptionPane;
+public class Ej01 {
+      public static void main (String [] args) {
+      int v=Integer.parseInt(JOptionPane.showInputDialog(null, "Ingrese la Velocidad"));
+      int t=Integer.parseInt(JOptionPane.showInputDialog(null, "Ingrese el Tiempo (Seg)"));
+      
+      int d=(v*t)
+      JOptionPane.showMessageDialog(null, "Distancia: "+d)
+      }
+}
 ```
 
 ### Y pruebas de estilo de codificación.
