@@ -12,15 +12,15 @@ Eclipse
 
 ### Instalación
 
-Una serie de ejemplos paso a paso que le indican cómo ejecutar un entorno de desarrollo.
-
-Di cuál será el paso.
+1. Ingresa a la página oficial de Eclipse.
 
 ```
-Give the example
+(https://www.eclipse.org/)
 ```
 
-Y repetir
+2. Presiona la opción "DOWNLOAD"
+
+![ALT](C:\Users\juane\OneDrive\Imágenes\Capturas de pantalla\Captura de pantalla_20230921_093554.png)
 
 ```
 until finished
