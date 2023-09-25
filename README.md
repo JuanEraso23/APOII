@@ -129,6 +129,7 @@ public class Ej02 {
 
 ### Ejercicio 03
 Calcula el puntaje de un equipo según los resultados de sus partidos. 
+
 **Nota:** Los partidos ganados equivalen a 3 puntos, los partidos empatados equivalen a 1 punto y Los partidos perdidos equivalen a 0 puntos.
 
 _Sin Ingreso Por Teclado_ 
