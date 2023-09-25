@@ -87,12 +87,64 @@ public class Ej01 {
 }
 ```
 
-### Y pruebas de estilo de codificación.
+### Ejercicio 02
+Calcula la distancia de un cuerpo según la velocidad y el tiempo dadas
 
-Explique qué prueban estas pruebas y por qué.
+_Sin Ingreso Por Teclado_ 
 
 ```
-Give an example
+package ej01
+
+public class Ej01 {
+      public static void main (String [] args) {
+      int d=0;
+      int v=4
+      int t=8;
+      
+      d=(v*t)
+      System.out.print("Distancia: "+d);
+      }
+}
+```
+
+### Ejercicio 03
+Calcula la distancia de un cuerpo según la velocidad y el tiempo dadas
+
+_Sin Ingreso Por Teclado_ 
+
+```
+package ej01
+
+public class Ej01 {
+      public static void main (String [] args) {
+      int d=0;
+      int v=4
+      int t=8;
+      
+      d=(v*t)
+      System.out.print("Distancia: "+d);
+      }
+}
+```
+
+### Ejercicio 02
+Calcula la distancia de un cuerpo según la velocidad y el tiempo dadas
+
+_Sin Ingreso Por Teclado_ 
+
+```
+package ej01
+
+public class Ej01 {
+      public static void main (String [] args) {
+      int d=0;
+      int v=4
+      int t=8;
+      
+      d=(v*t)
+      System.out.print("Distancia: "+d);
+      }
+}
 ```
 
 ## Despliegue (Deployment)
