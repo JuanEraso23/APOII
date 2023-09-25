@@ -93,18 +93,7 @@ Calcula la distancia de un cuerpo según la velocidad y el tiempo dadas
 _Sin Ingreso Por Teclado_ 
 
 ```
-package ej01
-
-public class Ej01 {
-      public static void main (String [] args) {
-      int d=0;
-      int v=4
-      int t=8;
-      
-      d=(v*t)
-      System.out.print("Distancia: "+d);
-      }
-}
+ej
 ```
 
 ### Ejercicio 03
@@ -113,38 +102,16 @@ Calcula la distancia de un cuerpo según la velocidad y el tiempo dadas
 _Sin Ingreso Por Teclado_ 
 
 ```
-package ej01
-
-public class Ej01 {
-      public static void main (String [] args) {
-      int d=0;
-      int v=4
-      int t=8;
-      
-      d=(v*t)
-      System.out.print("Distancia: "+d);
-      }
-}
+ej
 ```
 
-### Ejercicio 02
+### Ejercicio 04
 Calcula la distancia de un cuerpo según la velocidad y el tiempo dadas
 
 _Sin Ingreso Por Teclado_ 
 
 ```
-package ej01
-
-public class Ej01 {
-      public static void main (String [] args) {
-      int d=0;
-      int v=4
-      int t=8;
-      
-      d=(v*t)
-      System.out.print("Distancia: "+d);
-      }
-}
+ej
 ```
 
 ## Despliegue (Deployment)
