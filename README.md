@@ -33,7 +33,7 @@ Eclipse
 ## Archivos
 
 ### Ejercicio 01
-Calcula la distancia de un cuerpo según la velocidad y el tiempo dadas
+Calcula la distancia de un cuerpo según la velocidad y el tiempo.
 
 _Sin Ingreso Por Teclado_
 
@@ -88,30 +88,65 @@ public class Ej01 {
 ```
 
 ### Ejercicio 02
-Calcula la distancia de un cuerpo según la velocidad y el tiempo dadas
+Calcula el promedio del estud.
 
-_Sin Ingreso Por Teclado_ 
+_Sin Ingreso Por Teclado_
 
 ```
-ej
+package ej02
+
+public class Ej02 {
+      public static void main (String [] args) {
+      
+      float n1=5;
+      float n2=2;
+      float n3=9;
+      
+      prom=((n1+n2+n3)/3)
+      System.out.print("Promedio: "+prom);
+      }
+}
+```
+
+_Scanner_ 
+
+```
+package ej02
+import java.util.Scanner;
+public class Ej02 {
+      public static void main (String [] args) {
+      Scanner sc=new Scanner(System.in);
+      System.out.print("Ingrese las Calificaciones del Estud.");
+      float n1=sc.nextFloat();
+      float n2=sc.nextFloat();
+      float n3=sc.nextFloat();
+      
+      prom=((n1+n2+n3)/3)
+      System.out.print("Promedio: "+prom);
+      }
+}
 ```
 
 ### Ejercicio 03
-Calcula la distancia de un cuerpo según la velocidad y el tiempo dadas
+Calcula el puntaje de un equipo según los resultados de sus partidos. 
+**Nota:** Los partidos ganados equivalen a 3 puntos, los partidos empatados equivalen a 1 punto y Los partidos perdidos equivalen a 0 puntos.
 
 _Sin Ingreso Por Teclado_ 
 
 ```
-ej
-```
+package ej03
 
-### Ejercicio 04
-Calcula la distancia de un cuerpo según la velocidad y el tiempo dadas
-
-_Sin Ingreso Por Teclado_ 
-
-```
-ej
+public class Ej03 {
+      public static void main (String [] args) {
+      int puntaje=0;
+      int pg=5;
+      int pp=3;
+      int pe=2;
+      
+      puntaje=(pg*3)+(pp*0)+(pe*1);
+      System.out.print("Puntaje: "+puntaje);
+      }
+}
 ```
 
 ## Despliegue (Deployment)
