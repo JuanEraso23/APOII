@@ -232,7 +232,7 @@ public class Ej06 {
       System.out.print("Conversor de Monto");
       System.out.print("Monto (Pesos Colombianos):");
       double valor=sc.nextDouble();
-      dolar=((valor)/19.5)
+      dolar=((valor)/19.5);
       System.out.print("Monto (Dolares): "+dolar);
       }
 
@@ -242,7 +242,7 @@ public class Ej06 {
       float n1=sc.nextFloat();
       float n2=sc.nextFloat();
       float n3=sc.nextFloat();
-      prom=((n1+n2+n3)/3)
+      prom=((n1+n2+n3)/3);
       System.out.print("Promedio: "+prom);
       }
       
@@ -293,12 +293,17 @@ public class Ej06 {
       Scanner sc=new Scanner(System.in);
       int opcion=0;
       while(opcion!=5){
-      
-      }
       System.out.print("MENÚ");
-      System.out.print("Ingrese un Digito (1 al 5)");
+      System.out.print("1 (Conversor de Monto");
+      System.out.print("2 (Calculadora de Promedios");
+      System.out.print("3 (Puntaje del Equipo");
+      System.out.print("4 (Verificador de Pares o Impares");
+      System.out.print("5 (Salir");
+      }
 
-      if (dig==1){
+      opcion=sc.nextInt();
+      switch(opcion){
+      case 1;
       System.out.print("Conversor de Monto");
       System.out.print("Monto (Pesos Colombianos):");
       double valor=sc.nextDouble();
@@ -312,12 +317,12 @@ public class Ej06 {
       float n1=sc.nextFloat();
       float n2=sc.nextFloat();
       float n3=sc.nextFloat();
-      prom=((n1+n2+n3)/3)
+      prom=((n1+n2+n3)/3);
       System.out.print("Promedio: "+prom);
       }
       
       else if (dig==3){
-      System.out.print("Puntaje del Equipo A");
+      System.out.print("Puntaje del Equipo");
       int puntaje=0;
       int pg=5;
       int pp=3;
