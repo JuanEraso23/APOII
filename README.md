@@ -132,12 +132,12 @@ Calcula el puntaje de un equipo según los resultados de sus partidos.
 
 **Nota:** Los partidos ganados equivalen a 3 puntos, los partidos empatados equivalen a 1 punto y Los partidos perdidos equivalen a 0 puntos.
 
-_Sin Ingreso Por Teclado_ 
+_Sin Ingreso Por Teclado_  
 
 ```
-package ej03
+package ej04
 
-public class Ej03 {
+public class Ej04 {
       public static void main (String [] args) {
       int puntaje=0;
       int pg=5;
@@ -150,6 +150,55 @@ public class Ej03 {
 }
 ```
 
+### Ejercicio 04
+Se debe identificar el día de la semana según el número . 
+
+_Scanner_
+
+```
+package ej04
+import java.util.Scanner;
+public class Ej04 {
+      public static void main (String [] args) {
+      Scanner sc=new Scanner(System.in);
+      float num=sc.nextFloat();
+
+      if (num==1){
+      System.out.print("Lunes");
+      }
+      else if (num==2){
+      System.out.print("Martes");
+      }
+      else if (num==3){
+      System.out.print("Miercoles");
+      }
+      else if (num==4){
+      System.out.print("Jueves");
+      }
+      else if (num==5){
+      System.out.print("Viernes");
+      }
+      else if (num==6){
+      System.out.print("Sabado");
+      }
+      else if (num==7){
+      System.out.print("Domingo");
+      }
+      else {
+      System.out.print("No coincide con algún día");
+      }
+
+}
+```
+
+### Ejercicio 05
+Convierta un valor dado en pesos colombianos a dolares. 
+
+_Sin Ingreso Por Teclado_  
+
+```
+
+```
 ## Despliegue (Deployment)
 
 Agregue notas adicionales sobre cómo implementar esto en un sistema en vivo
