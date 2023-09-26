@@ -213,7 +213,7 @@ public class Ej05 {
 ```
 
 ### Ejercicio 06
-Menú con 5 opciones. 
+Menú con 5 opciones (if). 
 
 _Scanner_
 
@@ -280,6 +280,75 @@ public class Ej06 {
 }
 ```
 
+### Ejercicio 06
+Menú con 5 opciones (while/switch). 
+
+_Scanner_
+
+```
+package ej06
+import java.util.Scanner;
+public class Ej06 {
+      public static void main (String [] args) {
+      Scanner sc=new Scanner(System.in);
+      int opcion=0;
+      while(opcion!=5){
+      
+      }
+      System.out.print("MENÚ");
+      System.out.print("Ingrese un Digito (1 al 5)");
+
+      if (dig==1){
+      System.out.print("Conversor de Monto");
+      System.out.print("Monto (Pesos Colombianos):");
+      double valor=sc.nextDouble();
+      dolar=((valor)/19.5)
+      System.out.print("Monto (Dolares): "+dolar);
+      }
+
+      else if (dig==2){
+      System.out.print("Calculadora de Promedios");
+      System.out.print("Ingrese las Calificaciones del Estud.");
+      float n1=sc.nextFloat();
+      float n2=sc.nextFloat();
+      float n3=sc.nextFloat();
+      prom=((n1+n2+n3)/3)
+      System.out.print("Promedio: "+prom);
+      }
+      
+      else if (dig==3){
+      System.out.print("Puntaje del Equipo A");
+      int puntaje=0;
+      int pg=5;
+      int pp=3;
+      int pe=2;
+      puntaje=(pg*3)+(pp*0)+(pe*1);
+      System.out.print("Puntaje: "+puntaje);
+      }
+
+      else if (dig==4){
+      System.out.print("Verificador de Pares o Impares");
+      System.out.print("Digite un Número");
+      int num=sc.nextInt();
+      if (num%2==0){
+      System.out.print("Par");
+      }
+      else if (num%2!=0){
+      System.out.print("Impar");
+      }
+      }
+
+      else if (dig==5){
+      System.out.print("Salir");
+      }
+
+      else {
+      System.out.print("¡Error!");
+      System.out.print("No existe dicha opción");
+      }
+
+}
+```
 ## Despliegue (Deployment)
 
 Agregue notas adicionales sobre cómo implementar esto en un sistema en vivo
