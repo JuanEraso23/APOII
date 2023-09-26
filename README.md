@@ -294,63 +294,66 @@ public class Ej06 {
       int opcion=0;
       while(opcion!=5){
       System.out.print("MENÚ");
-      System.out.print("1 (Conversor de Monto");
-      System.out.print("2 (Calculadora de Promedios");
-      System.out.print("3 (Puntaje del Equipo");
-      System.out.print("4 (Verificador de Pares o Impares");
-      System.out.print("5 (Salir");
+      System.out.print("1 (Conversor de Monto)");
+      System.out.print("2 (Calculadora de Promedios)");
+      System.out.print("3 (Puntaje del Equipo)");
+      System.out.print("4 (Verificador de Pares o Impares)");
+      System.out.print("5 (Salir)");
       }
 
       opcion=sc.nextInt();
       switch(opcion){
-      case 1;
-      System.out.print("Conversor de Monto");
-      System.out.print("Monto (Pesos Colombianos):");
-      double valor=sc.nextDouble();
-      dolar=((valor)/19.5)
-      System.out.print("Monto (Dolares): "+dolar);
-      }
+      case 1:
+            System.out.print("Conversor de Monto");
+            System.out.print("Monto (Pesos Colombianos):");
+            double valor=sc.nextDouble();
+            dolar=((valor)/19.5);
+            System.out.print("Monto (Dolares): "+dolar);
+            break;
 
-      else if (dig==2){
-      System.out.print("Calculadora de Promedios");
-      System.out.print("Ingrese las Calificaciones del Estud.");
-      float n1=sc.nextFloat();
-      float n2=sc.nextFloat();
-      float n3=sc.nextFloat();
-      prom=((n1+n2+n3)/3);
-      System.out.print("Promedio: "+prom);
-      }
+      case 2:
+            System.out.print("Calculadora de Promedios");
+            System.out.print("Ingrese las Calificaciones del Estud.");
+            float n1=sc.nextFloat();
+            float n2=sc.nextFloat();
+            float n3=sc.nextFloat();
+            prom=((n1+n2+n3)/3);
+            System.out.print("Promedio: "+prom);
+            break;
+
+      case 3:
+            System.out.print("Puntaje del Equipo");
+            int puntaje=0;
+            int pg=5;
+            int pp=3;
+            int pe=2;
+            puntaje=(pg*3)+(pp*0)+(pe*1);
+            System.out.print("Puntaje: "+puntaje);
+            break;
       
-      else if (dig==3){
-      System.out.print("Puntaje del Equipo");
-      int puntaje=0;
-      int pg=5;
-      int pp=3;
-      int pe=2;
-      puntaje=(pg*3)+(pp*0)+(pe*1);
-      System.out.print("Puntaje: "+puntaje);
+       case 4:
+            System.out.print("Verificador de Pares o Impares");
+            System.out.print("Digite un Número");
+            int num=sc.nextInt();
+            if (num%2==0){
+            System.out.print("Par");
+            }
+            else if (num%2!=0){
+            System.out.print("Impar");
+            }
+            break;
+      
+     case 5:
+            System.out.print("Salir");
+            break;
+
+     default:
+            System.out.print("¡Error!");
+            System.out.print("No existe dicha opción");
+            break;
+            }
       }
 
-      else if (dig==4){
-      System.out.print("Verificador de Pares o Impares");
-      System.out.print("Digite un Número");
-      int num=sc.nextInt();
-      if (num%2==0){
-      System.out.print("Par");
-      }
-      else if (num%2!=0){
-      System.out.print("Impar");
-      }
-      }
-
-      else if (dig==5){
-      System.out.print("Salir");
-      }
-
-      else {
-      System.out.print("¡Error!");
-      System.out.print("No existe dicha opción");
-      }
 
 }
 ```
