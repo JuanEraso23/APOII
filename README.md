@@ -194,11 +194,24 @@ public class Ej04 {
 ### Ejercicio 05
 Convierta un valor dado en pesos colombianos a dolares. 
 
-_Sin Ingreso Por Teclado_  
+_Scanner_  
 
 ```
-
+package ej05
+import java.util.Scanner;
+public class Ej05 {
+      public static void main (String [] args) {
+      Scanner sc=new Scanner(System.in);
+      System.out.print("Conversor de Monto");
+      System.out.print("Monto (Pesos Colombianos):");
+      double valor=sc.nextDouble();
+      
+      dolar=((valor)/19.5)
+      System.out.print("Monto (Dolares): "+dolar);
+      }
+}
 ```
+
 ## Despliegue (Deployment)
 
 Agregue notas adicionales sobre cómo implementar esto en un sistema en vivo
