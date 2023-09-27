@@ -561,12 +561,6 @@ Eclipse: Programa de Desarrollo Java.
 
 Eclipse (Versión 2022-12).
 
-## Autores
-
-* **Juan Coronado**
-* **Jaider Narvaéz**
-* **Juan Eraso**
-
 ## Expresiones de gratitud (Acknowledgments)
 
 * Aprende de poco a poco para llegar lejos...
