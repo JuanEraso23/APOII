@@ -462,6 +462,38 @@ public class Ej06 {
 }
 ```
 
+### Ejercicio 10
+Imprime un Mensaje. 
+
+_JOptionPane_
+
+```
+package ej10
+import javax.swing.JOptionPane;
+public class Ej10 {
+      public static void main (String [] args) {
+      JOptionPane.showMessageDialog(null, "LOL");
+      }
+}
+```
+
+### Ejercicio 11
+Introduce tu Nombre. 
+
+_JOptionPane_
+
+```
+package ej11
+import javax.swing.JOptionPane;
+public class Ej11 {
+      public static void main (String [] args) {
+      String name=JOptionPane.showInputDialog(null, "Introduce tu Nombre. Por Favor");
+      JOptionPane.showMessageDialog(null, name);
+      }
+}
+```
+
+
 ## Despliegue (Deployment)
 
 Serie de ejercicios desarrollados en eclipse a lo largo del segundo semestre, 
