@@ -425,7 +425,7 @@ public class Ej06 {
       opcion=sc.nextInt();
       switch(opcion){
       case 1:
-            int suma=0,
+            int suma=0;
             int num=-1;
                   while (num!=0){
                   System.out.print("Digite Un Número Entero (Digite 0 Para Terminar)");
@@ -439,11 +439,11 @@ public class Ej06 {
             System.out.print("Ingrese 10 Números");
             int numero=10;
             int adicion=0;
-                  for (int i=1; i=numero; ++){
+                  for (int i=1; i<=numero; ++){
                   int numero=sc.nextInt();
                   adicion+=numero;
                   }
-            double orom=(double) adicion/numero;
+            double prom=(double) adicion/numero;
             System.out.print(prom+" :Promedio");
             break;
 
@@ -454,6 +454,59 @@ public class Ej06 {
      default:
             System.out.print("¡Error!");
             System.out.print("No existe dicha opción");
+            break;
+            }
+
+      }
+
+}
+```
+
+_JOptionPane_
+
+```
+package ej06
+import javax.swing.JOptionPane;
+public class Ej06 {
+      public static void main (String [] args) {
+      Scanner sc=new Scanner(System.in);
+      int opcion=0;
+      while(opcion!=3){
+      JOptionPane.showMessageDialog(null, "MENÚ");
+      opcion=Integer.parseInt(JOptionPane.showInputDialog(null, "Digite Una Opción"));
+      }
+
+      switch(opcion){
+      case 1:
+            JOptionPane.showMessageDialog(null, "Opción 01: Suma");
+            int suma=0;
+            int num=-1;
+                  while (num!=0){
+                  num=Integer.parseInt(JOptionPane.showInputDialog(null, "Digite Un Número Entero (Digite 0 Para Terminar)"));
+                  suma+=num;
+                  }
+            JOptionPane.showMessageDialog(null, suma+" :Resultado");
+            break;
+
+      case 2:
+            JOptionPane.showMessageDialog(null, "Opción 02: Calcular Promedio");
+            int numeros=10;
+            int adicion=0;
+                  for (int i=1; i<=numero; ++){
+                  int numero=Integer.parseInt(JOptionPane.showInputDialog(null, "Digite 10 Números"));
+                  adicion+=numero;
+                  }
+            double prom=(double) adicion/numeros;
+            JOptionPane.showMessageDialog(null, prom+" :Resultado");
+            break;
+
+      case 3:
+            JOptionPane.showMessageDialog(null, "Salir");
+            break;
+
+     default:
+            JOptionPane.showMessageDialog(null, "¡Error!");
+            JOptionPane.showMessageDialog(null, "No existe dicha opción");
             break;
             }
 
