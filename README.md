@@ -402,8 +402,8 @@ public class Ej08 {
 }
 ```
 
-### Ejercicio 06
-Menú con 5 opciones (while/switch). 
+### Ejercicio 09
+Menú con 3 opciones (while/switch). 
 
 _Scanner_
 
