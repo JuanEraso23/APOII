@@ -465,7 +465,8 @@ public class Ej06 {
 ## Despliegue (Deployment)
 
 Serie de ejercicios desarrollados en eclipse a lo largo del segundo semestre, 
-cuya tematica fue impartida por el docente a cargo de la asignatura "Mauricio Lopéz".
+cuya tematica fue impartida por el docente a cargo de la asignatura "Mauricio Lopéz" 
+al cual se le otorga su debido agradecimiento.
 
 ## Construido con
 
