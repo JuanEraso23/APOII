@@ -352,25 +352,128 @@ public class Ej06 {
             System.out.print("No existe dicha opción");
             break;
             }
-      }
 
+      }
 
 }
 ```
+
+### Ejercicio 07
+Imprima la tabla del número 8.
+
+_Sin Ingreso Por Teclado_
+
+```
+package ej07
+
+public class Ej07 {
+      public static void main (String [] args) {
+      
+      int num=8;
+      int multiplo=0;
+
+      for (int i=0; i<11; i++){
+      multiplo=(num*i)
+      System.out.print("8 x "+ i +"= "+multiplo);
+      }
+}
+```
+
+### Ejercicio 08
+Suma Continua.
+
+_Sin Ingreso Por Teclado_
+
+```
+package ej08
+
+public class Ej08 {
+      public static void main (String [] args) {
+      int a=1;
+      int b=0;
+      int n=20;
+
+      for (int i=0; i<11; i++){
+      int suma=a+b;
+      System.out.print(suma+ i +" ");
+      a=b;
+      b=suma;
+      }
+}
+```
+
+### Ejercicio 06
+Menú con 5 opciones (while/switch). 
+
+_Scanner_
+
+```
+package ej06
+import java.util.Scanner;
+public class Ej06 {
+      public static void main (String [] args) {
+      Scanner sc=new Scanner(System.in);
+      int opcion=0;
+      while(opcion!=3){
+      System.out.print("MENÚ");
+      System.out.print("Digite una Opción");
+      System.out.print("1");
+      System.out.print("2");
+      System.out.print("3");
+      }
+
+      opcion=sc.nextInt();
+      switch(opcion){
+      case 1:
+            int suma=0,
+            int num=-1;
+                  while (num!=0){
+                  System.out.print("Digite Un Número Entero (Digite 0 Para Terminar)");
+                  num=sc.nextInt();
+                  suma+=num;
+                  }
+            System.out.print(suma+" :Resultado");
+            break;
+
+      case 2:
+            System.out.print("Ingrese 10 Números");
+            int numero=10;
+            int adicion=0;
+                  for (int i=1; i=numero; ++){
+                  int numero=sc.nextInt();
+                  adicion+=numero;
+                  }
+            double orom=(double) adicion/numero;
+            System.out.print(prom+" :Promedio");
+            break;
+
+      case 3:
+            System.out.print("Salir");
+            break;
+
+     default:
+            System.out.print("¡Error!");
+            System.out.print("No existe dicha opción");
+            break;
+            }
+
+      }
+
+}
+```
+
 ## Despliegue (Deployment)
 
-Agregue notas adicionales sobre cómo implementar esto en un sistema en vivo
-
+Serie de ejercicios desarrollados en eclipse a lo largo del segundo semestre, 
+cuya tematica fue impartida por el docente a cargo de la asignatura "Mauricio Lopéz".
 
 ## Construido con
 
-Dropwizard : el marco web utilizado
-Maven - Gestión de dependencias
-ROMA : se utiliza para generar canales RSS
+Eclipse: Programa de Desarrollo Java.
 
 ## Versionado
 
-Usamos Git para el control de versiones. Para conocer las versiones disponibles, consulte las etiquetas en este repositorio .
+Eclipse (Versión 2022-12).
 
 ## Autores
 
@@ -378,13 +481,6 @@ Usamos Git para el control de versiones. Para conocer las versiones disponibles,
 * **Jaider Narvaéz**
 * **Juan Eraso**
 
-
-## Licencia
-
-Este proyecto tiene la licencia MIT; consulte el archivo LICENSE.md para obtener más detalles.
-
 ## Expresiones de gratitud (Acknowledgments)
 
-* Un consejo para cualquiera cuyo código se haya utilizado
-* Inspiración
-* etc
+* Aprende de poco a poco para llegar lejos...
