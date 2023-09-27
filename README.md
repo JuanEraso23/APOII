@@ -413,12 +413,12 @@ public class Ej06 {
       Scanner sc=new Scanner(System.in);
       int opcion=0;
       while(opcion!=3){
-      System.out.print("MENÚ");
-      System.out.print("Digite una Opción");
-      System.out.print("1");
-      System.out.print("2");
-      System.out.print("3");
-      }
+            System.out.print("MENU\n");
+		System.out.print("Elija Una Opción\n"); 
+		System.out.print("1 Suma\n"); 
+		System.out.print("2 Promedio\n"); 
+		System.out.print("3 Salida\n"); 
+      
 
       opcion=sc.nextInt();
       switch(opcion){
@@ -472,7 +472,6 @@ public class Ej06 {
       while(opcion!=3){
       JOptionPane.showMessageDialog(null, "MENÚ");
       opcion=Integer.parseInt(JOptionPane.showInputDialog(null, "Digite Una Opción"));
-      }
 
       switch(opcion){
       case 1:
