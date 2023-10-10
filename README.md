@@ -157,35 +157,47 @@ _Scanner_
 package ej04
 import java.util.Scanner;
 public class Ej04 {
+
       public static void main (String [] args) {
-      Scanner sc=new Scanner(System.in);
-      float num=sc.nextFloat();
+            
+            Scanner sc=new Scanner(System.in);
+            float num=sc.nextFloat();
 
-      if (num==1){
-      System.out.print("Lunes");
-      }
-      else if (num==2){
-      System.out.print("Martes");
-      }
-      else if (num==3){
-      System.out.print("Miercoles");
-      }
-      else if (num==4){
-      System.out.print("Jueves");
-      }
-      else if (num==5){
-      System.out.print("Viernes");
-      }
-      else if (num==6){
-      System.out.print("Sabado");
-      }
-      else if (num==7){
-      System.out.print("Domingo");
-      }
-      else {
-      System.out.print("No coincide con algún día");
-      }
+            if (num==1){
+                  System.out.print("Lunes");
+            }
 
+            else if (num==2){
+                  System.out.print("Martes");
+            }
+
+            else if (num==3){
+                  System.out.print("Miercoles");
+            }
+
+            else if (num==4){
+                  System.out.print("Jueves");
+            }
+
+            else if (num==5){
+                  System.out.print("Viernes");
+            }
+
+            else if (num==6){
+                  System.out.print("Sabado");
+            }
+
+            else if (num==7){
+                  System.out.print("Domingo");
+            }
+
+            else {
+                  System.out.print("!ERROR¡");
+                  System.out.print("No coincide con un día de la Semana");
+            }
+
+//Se agrego un mensaje de error
+//Se reorganizo el codigo
 }
 ```
 
