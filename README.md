@@ -88,16 +88,23 @@ public class Ej01 {
 _JOptionPane_
 
 ```
-package ej01
+package ej01;
+
+//Se reorganizo el codigo
 import javax.swing.JOptionPane;
+
 public class Ej01 {
-      public static void main (String [] args) {
-      int v=Integer.parseInt(JOptionPane.showInputDialog(null, "Ingrese la Velocidad"));
-      int t=Integer.parseInt(JOptionPane.showInputDialog(null, "Ingrese el Tiempo (Seg)"));
-      
-      int d=(v*t)
-      JOptionPane.showMessageDialog(null, "Distancia: "+d)
-      }
+	
+    public static void main(String[] args) {
+    	
+        int v = Integer.parseInt(JOptionPane.showInputDialog(null, "Ingrese la Velocidad"));
+        int t = Integer.parseInt(JOptionPane.showInputDialog(null, "Ingrese el Tiempo (Seg)"));
+        
+        int d = (v * t);  
+        JOptionPane.showMessageDialog(null, "Distancia: " + d);  
+        
+    }
+    
 }
 ```
 
