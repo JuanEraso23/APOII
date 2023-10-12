@@ -196,8 +196,6 @@ public class Ej04 {
                   System.out.print("No coincide con un día de la Semana");
             }
 
-//Se agrego un mensaje de error
-//Se reorganizo el codigo
 }
 ```
 
