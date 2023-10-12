@@ -36,17 +36,22 @@ Calcula la distancia de un cuerpo según la velocidad y el tiempo.
 _Sin Ingreso Por Teclado_
 
 ```
-package ej01
+package ej01;
 
-public class Ej01 {
-      public static void main (String [] args) {
-      int d=0;
-      int v=4
-      int t=8;
-      
-      d=(v*t)
-      System.out.print("Distancia: "+d);
-      }
+//Se reorganizo el codigo
+public class SinIngresoPorTeclado {
+
+	public static void main(String[] args) { 
+		
+		int d=0;
+		int v=4;
+		int t=8;
+		      
+		d=(v*t); 
+		System.out.print("Distancia: "+d);
+		    	  
+	}
+	
 }
 ```
 
