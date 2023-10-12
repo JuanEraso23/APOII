@@ -58,19 +58,30 @@ public class SinIngresoPorTeclado {
 _Scanner_
 
 ```
-package ej01
+package ej01;
+
+//Se reorganizo el codigo
+//Se agrego "sc.close();"
 import java.util.Scanner;
+
 public class Ej01 {
-      public static void main (String [] args) {
-      Scanner sc=new Scanner(System.in);
-      System.out.print("Ingrese la Velocidad");
-      int v=sc.nextInt();
-      System.out.print("Ingrese el Tiempo (Seg)");
-      int t=sc.nextInt();
-      
-      int d=(v*t)
-      System.out.print("Distancia: "+d);
+	
+    public static void main(String[] args) {
+    	
+            Scanner sc = new Scanner(System.in);
+            
+            System.out.print("Ingrese la Velocidad: ");
+            int v = sc.nextInt();
+            
+            System.out.print("Ingrese el Tiempo (Segundos): ");
+            int t = sc.nextInt();
+                  
+            int d = (v * t);
+            System.out.println("Distancia: " + d);
+            sc.close();
+	    
       }
+    
 }
 ```
 
