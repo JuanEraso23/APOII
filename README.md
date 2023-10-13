@@ -620,21 +620,19 @@ public class Ej12 {
             public static int suma(int x, int y) {
                   return (x + y);
             }
-
       }
 
-            public static int resta(int x, int y) {
-                  return (x - y);
-            }
+      public static int resta(int x, int y) {
+            return (x - y);
+      }
 
-            public static int multiplicacion(int x, int y) {
-                  return (x * y);
-            }
+      public static int multiplicacion(int x, int y) {
+            return (x * y);
+      }
 
-            public static int division(int x, int y) {
-                  return (x / y);
-            }
-   
+      public static int division(int x, int y) {
+            return (x / y);
+      }
 }
 ```
 
@@ -689,7 +687,47 @@ public class Ej13 {
             return numero * calcularFactorial(numero - 1);
       }
     }
+}
+```
 
+### Ejercicio 14
+Muestra la nota maxíma o mínima del estud. 
+
+_JOptionPane_
+
+```
+package ej14;
+
+import javax.swing.JOptionPane;
+
+public class Ej14 {
+
+      public static void main(String[] args) {
+        int lim = Integer.parseInt(JOptionPane.showInputDialog(null, "Ingrese el No. de Calificaciones"));
+        int num[] = new int[lim];
+        double suma = 0;
+
+        for (int i = 0; i < lim; i++) {
+            num[i] = Integer.parseInt(JOptionPane.showInputDialog(null, "Ingrese Calificación del Estud.\n"));
+            suma += num[i];
+        }
+
+        int max = num[0]; 
+        int min = num[0]; 
+
+        for (int i = 1; i < lim; i++) {
+            if (num[i] > max) {
+                  max = num[i];
+            }
+            if (num[i] < min) {
+                  min = num[i];
+            }
+        }
+
+        double prom = (suma / lim); 
+
+        JOptionPane.showMessageDialog(null, "Nota Máxima: " + max + "\n" + "Nota Mínima: " + min + "\n" + "Promedio: " + prom);
+      }
 }
 ```
 
