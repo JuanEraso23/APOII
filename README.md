@@ -577,7 +577,7 @@ public class Ej11 {
 ```
 
 ### Ejercicio 12
-Introduce tu Nombre. 
+Calculadora Básica. 
 
 _JOptionPane_
 
@@ -608,7 +608,7 @@ public class Ej12 {
             public static int suma(int x, int y) {
                   return (x + y);
             }
-            
+
       }
 
             public static int resta(int x, int y) {
@@ -623,6 +623,61 @@ public class Ej12 {
                   return (x / y);
             }
    
+}
+```
+
+### Ejercicio 13
+Introduce tu Nombre. 
+
+_JOptionPane_
+
+```
+package ej13;
+
+import javax.swing.JOptionPane;
+
+public class Ej13 {
+
+      public static void main(String[] args) {
+        JOptionPane.showMessageDialog(null, "Cálculo de Factorial");
+        JOptionPane.showMessageDialog(null, "Advertencia\n Ingrese Solo Números Enteros Positivos");
+
+        boolean continuar = true;
+
+        while (continuar) {
+            String input = JOptionPane.showInputDialog("Digite Un Número:");
+            int numero;
+
+            if (input != null && input.matches("\\d+")) {
+                  numero = Integer.parseInt(input);
+
+                  if (numero >= 0) {
+                        long factorial = calcularFactorial(numero);
+                        JOptionPane.showMessageDialog(null, "El factorial de " + numero + " es " + factorial);
+                  } else {
+                        JOptionPane.showMessageDialog(null, "¡ERROR!\n Por favor, Ingrese un Número Entero Positivo.");
+                  }
+
+            } else {
+                  JOptionPane.showMessageDialog(null, "¡ERROR!. Por Favor, Ingrese un Número Entero Positivo.");
+                  continue;
+            }
+
+            String respuesta = JOptionPane.showInputDialog("¿Desea Calcular el Factorial de Otro Número?\n (Sí/No)").toLowerCase();
+            if (!respuesta.equals("sí")) {
+                continuar = false;
+            }
+        }
+      }
+
+    public static long calcularFactorial(int numero) {
+      if (numero <= 1) {
+            return 1;
+      } else {
+            return numero * calcularFactorial(numero - 1);
+      }
+    }
+
 }
 ```
 
