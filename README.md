@@ -576,6 +576,55 @@ public class Ej11 {
 }
 ```
 
+### Ejercicio 12
+Introduce tu Nombre. 
+
+_JOptionPane_
+
+```
+package ej12
+
+import javax.swing.JOptionPane;
+
+public class Ej12 {
+
+      public static void main (String [] args) {
+
+            int x = Integer.ParseInt(JOptionPane.showInputDialog(null, "Digite Un Número"));
+            int y = Integer.ParseInt(JOptionPane.showInputDialog(null, "Digite Un Número"));
+
+            int a = suma(x, y);
+            JOptionPane.showMessageDialog(null, "SUMA: " + a);
+
+            int b = resta(x, y);
+            JOptionPane.showMessageDialog(null, "RESTA: " + b);
+
+            int c = multiplicacion(x, y);
+            JOptionPane.showMessageDialog(null, "MULTIPLICACIÓN: " + c);
+
+            int d = division(x, y);
+            JOptionPane.showMessageDialog(null, "DIVISIÓN: " + d);
+
+            public static int suma(int x, int y) {
+                  return (x + y);
+            }
+            
+      }
+
+            public static int resta(int x, int y) {
+                  return (x - y);
+            }
+
+            public static int multiplicacion(int x, int y) {
+                  return (x * y);
+            }
+
+            public static int division(int x, int y) {
+                  return (x / y);
+            }
+   
+}
+```
 
 ## Despliegue (Deployment)
 
