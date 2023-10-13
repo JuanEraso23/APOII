@@ -439,9 +439,9 @@ Menú con 3 opciones (while/switch).
 _Scanner_
 
 ```
-package ej06
+package ej09
 import java.util.Scanner;
-public class Ej06 {
+public class Ej09 {
       public static void main (String [] args) {
       Scanner sc=new Scanner(System.in);
       int opcion=0;
@@ -496,9 +496,9 @@ public class Ej06 {
 _JOptionPane_
 
 ```
-package ej06
+package ej09
 import javax.swing.JOptionPane;
-public class Ej06 {
+public class Ej09 {
       public static void main (String [] args) {
       Scanner sc=new Scanner(System.in);
       int opcion=0;
@@ -604,11 +604,12 @@ public class Ej12 {
 
             int d = division(x, y);
             JOptionPane.showMessageDialog(null, "DIVISIÓN: " + d);
-
-            public static int suma(int x, int y) {
-                  return (x + y);
-            }
       }
+
+      public static int suma(int x, int y) {
+            return (x + y);
+       }
+      
 
       public static int resta(int x, int y) {
             return (x - y);
@@ -716,6 +717,42 @@ public class Ej14 {
 
         JOptionPane.showMessageDialog(null, "Nota Máxima: " + max + "\n" + "Nota Mínima: " + min + "\n" + "Promedio: " + prom);
       }
+}
+```
+
+### Ejercicio 15
+Calcular promedio del estud. (try-catch) 
+
+_JOptionPane_
+
+```
+package ej15;
+
+import javax.swing.JOptionPane;
+
+public class Ej15 {
+
+	public static void main(String[] args) {
+		
+		JOptionPane.showMessageDialog(null, "Ponderación del Estud.");
+		
+		float [] nota=new float [3];
+		double suma=0;
+		double prom=0;
+		
+		for (int i=0; i<3; i++) {
+			try {
+			    nota[i] = Float.parseFloat(JOptionPane.showInputDialog(null, "Calificación " + (i+1)));
+			    suma+=nota[i];
+			} catch (NumberFormatException e) {
+			    JOptionPane.showMessageDialog(null, "¡ERROR!\n Ingrese Un Número\n (Entero o Decimal)");
+			    i--;
+			}
+		}
+		
+		prom=suma/3;
+		JOptionPane.showMessageDialog(null, "Promedio: "+ prom); 
+	}
 }
 ```
 
