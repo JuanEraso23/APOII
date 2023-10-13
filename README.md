@@ -643,7 +643,7 @@ _JOptionPane_
 
 ```
 package ej13;
-
+//Se reorganizo el codigo
 import javax.swing.JOptionPane;
 
 public class Ej13 {
