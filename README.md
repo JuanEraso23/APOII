@@ -212,6 +212,61 @@ public class Ej04 {
             }
       }
 }
+```
+
+_JOptionPane_   
+
+```
+package ej04;
+
+import javax.swing.JOptionPane;
+
+public class Ej04 {
+
+      public static void main(String[] args) {
+
+            String numInput = JOptionPane.showInputDialog("Ingrese un número:");
+            int num = Integer.parseInt(numInput);
+
+            String mensaje = "";
+
+            switch (num) {
+                  case 1:
+                  mensaje = "Lunes";
+                  break;
+
+                  case 2:
+                  mensaje = "Martes";
+                  break;
+
+                  case 3:
+                  mensaje = "Miércoles";
+                  break;
+
+                  case 4:
+                  mensaje = "Jueves";
+                  break;
+
+                  case 5:
+                  mensaje = "Viernes";
+                  break;
+
+                  case 6:
+                  mensaje = "Sábado";
+                  break;
+
+                  case 7:
+                  mensaje = "Domingo";
+                  break;
+
+                  default:
+                  mensaje = "!ERROR!\n No coincide con un día de la semana";
+                  break;
+            }
+            
+            JOptionPane.showMessageDialog(null, mensaje);
+      }
+}
 
 ```
 
