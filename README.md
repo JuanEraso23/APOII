@@ -115,12 +115,10 @@ public class Ej02 {
       public static void main (String [] args) {
       
       float n1=5;
-
       float n2=2;
-
       float n3=9;
 
-      float prom=((n1+n2+n3)/3)
+      float prom=((n1+n2+n3)/3);
       System.out.print("Promedio: "+prom);
       }
 }
@@ -205,7 +203,7 @@ public class Ej03 {
 _JOptionPane_   
 
 ```
-package ej04;
+package ej03;
 
 import javax.swing.JOptionPane;
 
