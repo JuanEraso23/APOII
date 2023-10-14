@@ -158,7 +158,7 @@ Calcula el puntaje de un equipo según los resultados de sus partidos.
 _Sin Ingreso Por Teclado_  
 
 ```
-package ej03
+package ej03;
 //Se reorganizo el codigo
 public class Ej03 {
 
@@ -198,6 +198,34 @@ public class Ej03 {
 
         puntaje = (pg * 3) + (pp * 0) + (pe * 1);
         System.out.print("Puntaje: " + puntaje);    
+      }
+}
+```
+
+_JOptionPane_   
+
+```
+package ej04;
+
+import javax.swing.JOptionPane;
+
+public class Ej03 {
+
+      public static void main(String[] args) {
+
+            int puntaje = 0;
+
+            String pgInput = JOptionPane.showInputDialog("Ingrese el valor de pg:");
+            int pg = Integer.parseInt(pgInput);
+
+            String ppInput = JOptionPane.showInputDialog("Ingrese el valor de pp:");
+            int pp = Integer.parseInt(ppInput);
+
+            String peInput = JOptionPane.showInputDialog("Ingrese el valor de pe:");
+            int pe = Integer.parseInt(peInput);
+
+            puntaje = (pg * 3) + (pp * 0) + (pe * 1);
+            JOptionPane.showMessageDialog(null, "Puntaje: " + puntaje);
       }
 }
 ```
@@ -294,7 +322,6 @@ public class Ej04 {
             JOptionPane.showMessageDialog(null, mensaje);
       }
 }
-
 ```
 
 ### Ejercicio 05
