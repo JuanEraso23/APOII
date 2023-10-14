@@ -48,10 +48,8 @@ public class SinIngresoPorTeclado {
 		int t=8;
 		      
 		d=(v*t); 
-		System.out.print("Distancia: "+d);
-		    	  
-	}
-	
+		System.out.print("Distancia: "+d);    	  
+	}	
 }
 ```
 
@@ -66,7 +64,7 @@ import java.util.Scanner;
 
 public class Ej01 {
 	
-    public static void main(String[] args) {
+      public static void main(String[] args) {
     	
             Scanner sc = new Scanner(System.in);
             
@@ -78,10 +76,8 @@ public class Ej01 {
                   
             int d = (v * t);
             System.out.println("Distancia: " + d);
-            sc.close();
-	    
-      }
-    
+            sc.close();  
+      }  
 }
 ```
 
@@ -95,16 +91,14 @@ import javax.swing.JOptionPane;
 
 public class Ej01 {
 	
-    public static void main(String[] args) {
+      public static void main(String[] args) {
     	
         int v = Integer.parseInt(JOptionPane.showInputDialog(null, "Ingrese la Velocidad"));
         int t = Integer.parseInt(JOptionPane.showInputDialog(null, "Ingrese el Tiempo (Seg)"));
         
         int d = (v * t);  
-        JOptionPane.showMessageDialog(null, "Distancia: " + d);  
-        
-    }
-    
+        JOptionPane.showMessageDialog(null, "Distancia: " + d);    
+      }
 }
 ```
 
@@ -188,7 +182,7 @@ _Scanner_
 
 ```
 package ej04;
-
+//Se reorganizo el codigo
 import java.util.Scanner;
 
 public class Ej04 {
@@ -227,17 +221,21 @@ Convierta un valor dado en pesos colombianos a dolares.
 _Scanner_  
 
 ```
-package ej05
+package ej05;
+
 import java.util.Scanner;
+
 public class Ej05 {
-      public static void main (String [] args) {
-      Scanner sc=new Scanner(System.in);
-      System.out.print("Conversor de Monto");
-      System.out.print("Monto (Pesos Colombianos):");
-      double valor=sc.nextDouble();
-      
-      dolar=((valor)/19.5)
-      System.out.print("Monto (Dolares): "+dolar);
+
+      public static void main(String[] args) {
+            
+            Scanner sc = new Scanner(System.in);
+            System.out.print("Conversor de Monto");
+            System.out.print("Monto (Pesos Colombianos):");
+            double valor = sc.nextDouble();
+
+            double dolar = valor / 19.5; // Faltaba la declaración de la variable "dolar"
+            System.out.print("Monto (Dólares): " + dolar);
       }
 }
 ```
