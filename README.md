@@ -108,7 +108,7 @@ Calcula el promedio del estud.
 _Sin Ingreso Por Teclado_
 
 ```
-package ej02
+package ej02;
 //Se reorganizo el codigo
 public class Ej02 {
 
@@ -129,7 +129,7 @@ public class Ej02 {
 _Scanner_ 
 
 ```
-package ej02
+package ej02;
 //Se reorganizo el codigo
 import java.util.Scanner;
 
@@ -171,6 +171,33 @@ public class Ej03 {
       
             puntaje=(pg*3)+(pp*0)+(pe*1);
             System.out.print("Puntaje: "+puntaje);
+      }
+}
+```
+
+_Scanner_  
+
+```
+package ej03;
+
+import java.util.Scanner;
+
+public class Ej03 {
+
+      public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+        int puntaje = 0;
+
+        System.out.print("Ingrese el valor de pg: ");
+        int pg = sc.nextInt();
+        System.out.print("Ingrese el valor de pp: ");
+        int pp = sc.nextInt();
+        System.out.print("Ingrese el valor de pe: ");
+        int pe = sc.nextInt();
+
+        puntaje = (pg * 3) + (pp * 0) + (pe * 1);
+        System.out.print("Puntaje: " + puntaje);    
       }
 }
 ```
