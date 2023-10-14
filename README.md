@@ -144,12 +144,12 @@ public class Ej02 {
       public static void main (String [] args) {
 
             Scanner sc=new Scanner(System.in); 
+
             float n1=sc.nextFloat();
             float n2=sc.nextFloat();
             float n3=sc.nextFloat();
             System.out.print("Ingrese las Calificaciones del Estud.");
             
-      
             prom=((n1+n2+n3)/3)
             System.out.print("Promedio: "+prom);
       }
@@ -164,17 +164,19 @@ Calcula el puntaje de un equipo según los resultados de sus partidos.
 _Sin Ingreso Por Teclado_  
 
 ```
-package ej04
+package ej03
+//Se reorganizo el codigo
+public class Ej03 {
 
-public class Ej04 {
       public static void main (String [] args) {
-      int puntaje=0;
-      int pg=5;
-      int pp=3;
-      int pe=2;
+
+            int puntaje=0;
+            int pg=5;
+            int pp=3;
+            int pe=2;
       
-      puntaje=(pg*3)+(pp*0)+(pe*1);
-      System.out.print("Puntaje: "+puntaje);
+            puntaje=(pg*3)+(pp*0)+(pe*1);
+            System.out.print("Puntaje: "+puntaje);
       }
 }
 ```
