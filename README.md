@@ -222,7 +222,7 @@ _Scanner_
 
 ```
 package ej05;
-
+//Se reorganizo el codigo
 import java.util.Scanner;
 
 public class Ej05 {
@@ -239,6 +239,28 @@ public class Ej05 {
       }
 }
 ```
+
+_JOptionPane_   
+
+```
+import javax.swing.JOptionPane;
+
+public class Ej05 {
+
+      public static void main(String[] args) {
+
+            JOptionPane.showMessageDialog(null, "Conversor de Monto");
+
+            String valorInput = JOptionPane.showInputDialog("Monto (Pesos Colombianos):");
+            double valor = Double.parseDouble(valorInput);
+
+            double dolar = valor / 19.5;
+
+            JOptionPane.showMessageDialog(null, "Monto (Dólares): " + dolar);
+      }
+}
+```
+
 
 ### Ejercicio 06
 Menú con 5 opciones (if). 
