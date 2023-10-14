@@ -136,17 +136,22 @@ _Scanner_
 
 ```
 package ej02
+//Se reorganizo el codigo
 import java.util.Scanner;
+
 public class Ej02 {
+
       public static void main (String [] args) {
-      Scanner sc=new Scanner(System.in);
-      System.out.print("Ingrese las Calificaciones del Estud.");
-      float n1=sc.nextFloat();
-      float n2=sc.nextFloat();
-      float n3=sc.nextFloat();
+
+            Scanner sc=new Scanner(System.in); 
+            float n1=sc.nextFloat();
+            float n2=sc.nextFloat();
+            float n3=sc.nextFloat();
+            System.out.print("Ingrese las Calificaciones del Estud.");
+            
       
-      prom=((n1+n2+n3)/3)
-      System.out.print("Promedio: "+prom);
+            prom=((n1+n2+n3)/3)
+            System.out.print("Promedio: "+prom);
       }
 }
 ```
