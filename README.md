@@ -126,7 +126,7 @@ public class Ej02 {
 
       float n3=9;
 
-      prom=((n1+n2+n3)/3)
+      float prom=((n1+n2+n3)/3)
       System.out.print("Promedio: "+prom);
       }
 }
@@ -187,49 +187,38 @@ Se debe identificar el día de la semana según el número.
 _Scanner_
 
 ```
-package ej04
+package ej04;
+
 import java.util.Scanner;
+
 public class Ej04 {
 
-      public static void main (String [] args) {
-            
-            Scanner sc=new Scanner(System.in);
-            float num=sc.nextFloat();
+      public static void main(String[] args) {
 
-            if (num==1){
+            Scanner sc = new Scanner(System.in);
+            float num = sc.nextFloat();
+
+            if (num == 1) {
                   System.out.print("Lunes");
-            }
-
-            else if (num==2){
+            } else if (num == 2) {
                   System.out.print("Martes");
-            }
-
-            else if (num==3){
-                  System.out.print("Miercoles");
-            }
-
-            else if (num==4){
+            } else if (num == 3) {
+                  System.out.print("Miércoles");
+            } else if (num == 4) {
                   System.out.print("Jueves");
-            }
-
-            else if (num==5){
+            } else if (num == 5) {
                   System.out.print("Viernes");
-            }
-
-            else if (num==6){
-                  System.out.print("Sabado");
-            }
-
-            else if (num==7){
+            } else if (num == 6) {
+                  System.out.print("Sábado");
+            } else if (num == 7) {
                   System.out.print("Domingo");
+            } else {
+                  System.out.print("!ERROR!");
+                  System.out.print(" No coincide con un día de la semana");
             }
-
-            else {
-                  System.out.print("!ERROR¡");
-                  System.out.print("No coincide con un día de la Semana");
-            }
-
+      }
 }
+
 ```
 
 ### Ejercicio 05
