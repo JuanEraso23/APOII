@@ -5,7 +5,8 @@ Curso de Algoritmos y Programacion II.
 ## Descripción
 Registro de Actividades.
 Se hizo un guardado rapido de los codigos dentro la asignatura APOII 
-a lo largo del segundo semestrecon el objetivo de tener registro de ellos
+a lo largo del segundo semestre con el objetivo de tener registro de ellos 
+a modo de portafolio.
 
 ### Programas
 
