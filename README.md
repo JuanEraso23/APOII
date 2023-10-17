@@ -30,7 +30,7 @@ Eclipse
 
 ![Captura de pantalla_20230921_094341](https://github.com/JuanEraso23/APOII/assets/144852394/19b85cd8-30c7-448e-8d4b-171914a3f9cb)
 
-## Archivos
+## Actividades
 
 ### Ejercicio 01
 Calcula la distancia de un cuerpo según la velocidad y el tiempo.
