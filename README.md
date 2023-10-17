@@ -374,7 +374,7 @@ public class Ej05 {
 
 
 ### Ejercicio 06
-Menú con 5 opciones (if). 
+Menú con 5 opciones (If). 
 
 _Scanner_
 
@@ -442,7 +442,7 @@ public class Ej06 {
 ```
 
 ### Ejercicio 06
-Menú con 5 opciones (while/switch). 
+Menú con 5 opciones (While/Switch). 
 
 _Scanner_
 
@@ -534,8 +534,8 @@ public class Ej07 {
       	int multiplo=0;
 
       	for (int i=0; i<11; i++){
-	multiplo=(num*i);
-	System.out.print("8 x "+ i +"= "+multiplo);
+		multiplo=(num*i);
+		System.out.print("8 x "+ i +"= "+multiplo);
       	}
 }
 ```
@@ -550,21 +550,22 @@ package ej08
 
 public class Ej08 {
       public static void main (String [] args) {
-      int a=1;
-      int b=0;
-      int n=20;
 
-      for (int i=0; i<11; i++){
-      int suma=a+b;
-      System.out.print(suma+ i +" ");
-      a=b;
-      b=suma;
-      }
+      	int a=1;
+      	int b=0;
+      	int n=20;
+
+	for (int i=0; i<11; i++){
+      		int suma=a+b;
+      		System.out.print(suma+ i +" ");
+      		a=b;
+      		b=suma;
+      	}
 }
 ```
 
 ### Ejercicio 09
-Menú con 3 opciones (while/switch). 
+Menú con 3 opciones (While/Switch). 
 
 _Scanner_
 
@@ -851,7 +852,7 @@ public class Ej14 {
 ```
 
 ### Ejercicio 15
-Calcular promedio del estud. (try-catch) 
+Calcular promedio del estud. (Try-Catch) 
 
 _JOptionPane_
 
