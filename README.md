@@ -4,6 +4,7 @@ Curso de Algoritmos y Programacion II.
 
 ## Descripción
 Registro de Actividades.
+
 Se hizo un guardado rapido de los codigos realizados dentro la asignatura APOII 
 a lo largo del segundo semestre de la Universidad Mariana con el objetivo de tener registro de ellos 
 a modo de portafolio.
