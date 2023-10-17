@@ -261,7 +261,7 @@ public class Ej04 {
                   System.out.print("Domingo");
             } else {
                   System.out.print("!ERROR!");
-                  System.out.print(" No coincide con un día de la semana");
+                  System.out.print("No coincide con un día de la semana");
             }
       }
 }
@@ -341,7 +341,7 @@ public class Ej05 {
             System.out.print("Monto (Pesos Colombianos):");
             double valor = sc.nextDouble();
 
-            double dolar = valor / 19.5; // Faltaba la declaración de la variable "dolar"
+            double dolar = valor / 19.5; 
             System.out.print("Monto (Dólares): " + dolar);
       }
 }
@@ -526,13 +526,13 @@ package ej07
 public class Ej07 {
       public static void main (String [] args) {
       
-      int num=8;
-      int multiplo=0;
+      	int num=8;
+      	int multiplo=0;
 
-      for (int i=0; i<11; i++){
-      multiplo=(num*i)
-      System.out.print("8 x "+ i +"= "+multiplo);
-      }
+      	for (int i=0; i<11; i++){
+	multiplo=(num*i);
+	System.out.print("8 x "+ i +"= "+multiplo);
+      	}
 }
 ```
 
