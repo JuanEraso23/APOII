@@ -3,7 +3,9 @@
 Curso de Algoritmos y Programacion II.
 
 ## Descripción
-Registro de Actividades. 
+Registro de Actividades.
+Se hizo un guardado rapido de los codigos dentro la asignatura APOII 
+a lo largo del segundo semestrecon el objetivo de tener registro de ellos
 
 ### Programas
 
@@ -895,6 +897,10 @@ Eclipse: Programa de Desarrollo Java.
 ## Versionado
 
 Eclipse (Versión 2022-12).
+
+## Autor(es)
+
+Juan Eraso, Jaider Narvaèz.
 
 ## Expresiones de gratitud (Acknowledgments)
 
