@@ -12,7 +12,8 @@ a modo de portafolio.
 ### Programas
 
 Eclipse 
-### ![ALT](https://2.bp.blogspot.com/-PqNShh8OyR0/WbnhQF1M_xI/AAAAAAAAM0Q/ZD4RsPm6hjkYrIGh61sTcY2HKxRJGsTuwCLcBGAs/s1600/eclipse-800x188.png)
+
+![eclipse-800x188](https://github.com/JuanEraso23/APOII/assets/144852394/26e81b2c-305a-4582-9d4b-221266f61049)
 
 ### Instalación
 
