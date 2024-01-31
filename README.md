@@ -207,7 +207,7 @@ package ej03;
 
 import java.util.Scanner;
 
-public class IngresoPorScanner {
+public class Ej03 {
 
       public static void main(String[] args) {
 
