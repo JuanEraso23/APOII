@@ -34,7 +34,7 @@ Eclipse
 
 ## Actividades
 
-### Ejercicio 01
+### Ejercicio 1
 Calcula la distancia de un cuerpo según la velocidad y el tiempo.
 
 _Sin Ingreso Por Teclado_
@@ -106,7 +106,7 @@ public class Ej01 {
 }
 ```
 
-### Ejercicio 02
+### Ejercicio 2
 Calcula el promedio del estud.
 
 _Sin Ingreso Por Teclado_
@@ -152,7 +152,7 @@ public class Ej02 {
 }
 ```
 
-### Ejercicio 03
+### Ejercicio 3
 Calcula el puntaje de un equipo según los resultados de sus partidos. 
 
 **Nota:** Los partidos ganados equivalen a 3 puntos, los partidos empatados equivalen a 1 punto y Los partidos perdidos equivalen a 0 puntos.
@@ -232,7 +232,7 @@ public class Ej03 {
 }
 ```
 
-### Ejercicio 04
+### Ejercicio 4
 Se debe identificar el día de la semana según el número. 
 
 _Scanner_
@@ -326,7 +326,7 @@ public class Ej04 {
 }
 ```
 
-### Ejercicio 05
+### Ejercicio 5
 Convierta un valor dado en pesos colombianos a dolares. 
 
 _Scanner_  
@@ -373,7 +373,7 @@ public class Ej05 {
 ```
 
 
-### Ejercicio 06
+### Ejercicio 6
 Menú con 5 opciones (If). 
 
 _Scanner_
@@ -441,7 +441,7 @@ public class Ej06 {
 }
 ```
 
-### Ejercicio 06
+### Ejercicio 6.5
 Menú con 5 opciones (While/Switch). 
 
 _Scanner_
@@ -519,7 +519,7 @@ public class Ej06 {
 }
 ```
 
-### Ejercicio 07
+### Ejercicio 7
 Imprima la tabla del número 8.
 
 _Sin Ingreso Por Teclado_
@@ -540,7 +540,7 @@ public class Ej07 {
 }
 ```
 
-### Ejercicio 08
+### Ejercicio 8
 Suma Continua.
 
 _Sin Ingreso Por Teclado_
@@ -564,7 +564,7 @@ public class Ej08 {
 }
 ```
 
-### Ejercicio 09
+### Ejercicio 9
 Menú con 3 opciones (While/Switch). 
 
 _Scanner_
