@@ -216,8 +216,10 @@ public class IngresoPorScanner {
 
         System.out.print("Ingrese el valor de pg: ");
         int pg = sc.nextInt();
+
         System.out.print("Ingrese el valor de pp: ");
         int pp = sc.nextInt();
+
         System.out.print("Ingrese el valor de pe: ");
         int pe = sc.nextInt();
 
@@ -275,22 +277,22 @@ public class Ej04 {
 
             if (num == 1) {
                   System.out.print("Lunes");
-            } else if (num == 2) {
-                  System.out.print("Martes");
-            } else if (num == 3) {
-                  System.out.print("Miércoles");
-            } else if (num == 4) {
-                  System.out.print("Jueves");
-            } else if (num == 5) {
-                  System.out.print("Viernes");
-            } else if (num == 6) {
-                  System.out.print("Sábado");
-            } else if (num == 7) {
-                  System.out.print("Domingo");
-            } else {
-                  System.out.print("!ERROR!");
-                  System.out.print("No coincide con un día de la semana");
-            }
+		} else if (num == 2) {
+                  	System.out.print("Martes");
+                } else if (num == 3) {
+                  	System.out.print("Miércoles");
+            	} else if (num == 4) {
+			System.out.print("Jueves");
+            	} else if (num == 5) {
+                  	System.out.print("Viernes");
+            	} else if (num == 6) {
+			System.out.print("Sábado");
+            	} else if (num == 7) {
+                  	System.out.print("Domingo");
+            	} else {
+                  	System.out.print("!ERROR!");
+                  	System.out.print("No coincide con un día de la semana");
+            	}
       }
 }
 ```
@@ -312,6 +314,7 @@ public class Ej04 {
             String mensaje = "";
 
             switch (num) {
+
                   case 1:
                   mensaje = "Lunes";
                   break;
@@ -366,6 +369,7 @@ public class Ej05 {
       public static void main(String[] args) {
             
             Scanner sc = new Scanner(System.in);
+
             System.out.print("Conversor de Monto");
             System.out.print("Monto (Pesos Colombianos):");
             double valor = sc.nextDouble();
@@ -449,12 +453,11 @@ public class Ej06 {
       System.out.print("Verificador de Pares o Impares");
       System.out.print("Digite un Número");
       int num=sc.nextInt();
-      if (num%2==0){
-      System.out.print("Par");
-      }
-      else if (num%2!=0){
-      System.out.print("Impar");
-      }
+	      if (num%2==0){
+	      System.out.print("Par");
+	      } else if (num%2!=0){
+	      System.out.print("Impar");
+	      }
       }
 
       else if (dig==5){
@@ -483,6 +486,7 @@ public class Ej06 {
 
       public static void main (String [] args) {
       Scanner sc=new Scanner(System.in);
+
       int opcion=0;
       while(opcion!=5){
       System.out.print("MENÚ");
@@ -527,12 +531,11 @@ public class Ej06 {
             System.out.print("Verificador de Pares o Impares");
             System.out.print("Digite un Número");
             int num=sc.nextInt();
-            if (num%2==0){
-            System.out.print("Par");
-            }
-            else if (num%2!=0){
-            System.out.print("Impar");
-            }
+	            if (num%2==0){
+	            System.out.print("Par");
+	            } else if (num%2!=0){
+	            System.out.print("Impar");
+	            }
             break;
       
      case 5:
@@ -885,6 +888,7 @@ public class Ej14 {
             if (num[i] > max) {
                   max = num[i];
             }
+
             if (num[i] < min) {
                   min = num[i];
             }
