@@ -113,6 +113,7 @@ _Sin Ingreso Por Teclado_
 
 ```
 package ej02;
+
 //Se reorganizo el codigo
 public class Ej02 {
 
@@ -132,6 +133,7 @@ _Scanner_
 
 ```
 package ej02;
+
 //Se reorganizo el codigo
 import java.util.Scanner;
 
@@ -161,6 +163,7 @@ _Sin Ingreso Por Teclado_
 
 ```
 package ej03;
+
 //Se reorganizo el codigo
 public class Ej03 {
 
@@ -239,6 +242,7 @@ _Scanner_
 
 ```
 package ej04;
+
 //Se reorganizo el codigo
 import java.util.Scanner;
 
@@ -333,6 +337,7 @@ _Scanner_
 
 ```
 package ej05;
+
 //Se reorganizo el codigo
 import java.util.Scanner;
 
@@ -380,8 +385,11 @@ _Scanner_
 
 ```
 package ej06
+
 import java.util.Scanner;
+
 public class Ej06 {
+
       public static void main (String [] args) {
       Scanner sc=new Scanner(System.in);
       float num=sc.nextFloat();
@@ -448,8 +456,11 @@ _Scanner_
 
 ```
 package ej06
+
 import java.util.Scanner;
+
 public class Ej06 {
+
       public static void main (String [] args) {
       Scanner sc=new Scanner(System.in);
       int opcion=0;
@@ -528,6 +539,7 @@ _Sin Ingreso Por Teclado_
 package ej07
 
 public class Ej07 {
+
       public static void main (String [] args) {
       
       	int num=8;
@@ -549,6 +561,7 @@ _Sin Ingreso Por Teclado_
 package ej08
 
 public class Ej08 {
+
       public static void main (String [] args) {
 
       	int a=1;
@@ -571,8 +584,11 @@ _Scanner_
 
 ```
 package ej09
+
 import java.util.Scanner;
+
 public class Ej09 {
+
       public static void main (String [] args) {
       Scanner sc=new Scanner(System.in);
       int opcion=0;
@@ -628,8 +644,11 @@ _JOptionPane_
 
 ```
 package ej09
+
 import javax.swing.JOptionPane;
+
 public class Ej09 {
+
       public static void main (String [] args) {
       Scanner sc=new Scanner(System.in);
       int opcion=0;
@@ -683,8 +702,11 @@ _JOptionPane_
 
 ```
 package ej10
+
 import javax.swing.JOptionPane;
+
 public class Ej10 {
+
       public static void main (String [] args) {
       JOptionPane.showMessageDialog(null, "LOL");
       }
@@ -698,8 +720,11 @@ _JOptionPane_
 
 ```
 package ej11
+
 import javax.swing.JOptionPane;
+
 public class Ej11 {
+
       public static void main (String [] args) {
       String name=JOptionPane.showInputDialog(null, "Introduce tu Nombre. Por Favor");
       JOptionPane.showMessageDialog(null, name);
@@ -763,6 +788,7 @@ _JOptionPane_
 
 ```
 package ej13;
+
 //Se reorganizo el codigo
 import javax.swing.JOptionPane;
 
