@@ -148,7 +148,7 @@ public class Ej02 {
             float n3=sc.nextFloat();
             System.out.print("Ingrese las Calificaciones del Estud.");
             
-            prom=((n1+n2+n3)/3)
+            float prom=((n1+n2+n3)/3);
             System.out.print("Promedio: "+prom);
       }
 }
