@@ -11,7 +11,7 @@ a modo de portafolio.
 
 ### Programas
 
-Eclipse 
+**Eclipse**
 
 ![eclipse-800x188](https://github.com/JuanEraso23/APOII/assets/144852394/26e81b2c-305a-4582-9d4b-221266f61049)
 
@@ -178,9 +178,7 @@ public class Ej02 {
 ```
 
 ### Ejercicio 3
-Calcula el puntaje de un equipo según los resultados de sus partidos. 
-
-**Nota:** Los partidos ganados equivalen a 3 puntos, los partidos empatados equivalen a 1 punto y Los partidos perdidos equivalen a 0 puntos.
+Calcula el puntaje de un equipo según los resultados de sus partidos.
 
 _Sin Ingreso Por Teclado_  
 
@@ -954,7 +952,9 @@ Eclipse (Versión 2022-12).
 
 ## Autor(es)
 
-Juan Eraso, Jaider Narvaèz.
+Juan Eraso, 
+Jaider Narvaèz,
+Miguel Zambrano.
 
 ## Expresiones de gratitud (Acknowledgments)
 
