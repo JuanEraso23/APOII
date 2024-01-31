@@ -165,11 +165,11 @@ public class Ej02 {
 
     public static void main(String[] args) {
     	
-        float n1 = Float.parseFloat(JOptionPane.showInputDialog("Ingrese la primera calificación del estudiante:"));
-        float n2 = Float.parseFloat(JOptionPane.showInputDialog("Ingrese la segunda calificación del estudiante:"));
-        float n3 = Float.parseFloat(JOptionPane.showInputDialog("Ingrese la tercera calificación del estudiante:"));
+        float n1=Float.parseFloat(JOptionPane.showInputDialog("Ingrese la primera calificación del estudiante:"));
+        float n2=Float.parseFloat(JOptionPane.showInputDialog("Ingrese la segunda calificación del estudiante:"));
+        float n3=Float.parseFloat(JOptionPane.showInputDialog("Ingrese la tercera calificación del estudiante:"));
 
-        float prom =((n1+ n2+n3)/3);
+        float prom=((n1+ n2+n3)/3);
         JOptionPane.showMessageDialog(null, "Promedio: " + prom);
     }
 }
