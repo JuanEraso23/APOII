@@ -43,7 +43,7 @@ _Sin Ingreso Por Teclado_
 package ej01;
 
 //Se reorganizo el codigo
-public class SinIngresoPorTeclado {
+public class Ej01 {
 
 	public static void main(String[] args) { 
 		
