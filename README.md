@@ -523,11 +523,11 @@ Menú con 5 opciones (While/Switch).
 _Scanner_
 
 ```
-package ej06
+package ej07
 
 import java.util.Scanner;
 
-public class Ej06 {
+public class Ej07 {
 
       public static void main (String [] args) {
       Scanner sc=new Scanner(System.in);
@@ -595,6 +595,52 @@ public class Ej06 {
 
       }
 
+}
+```
+
+_JOptionPane_   
+
+```
+package ej07;
+
+import javax.swing.JOptionPane;
+
+public class Ej07 {
+
+    public static void main(String[] args) {
+        float num = Float.parseFloat(JOptionPane.showInputDialog("Ingrese un Dígito (1 al 5)"));
+        int dig = (int) num;
+
+        if (dig == 1) {
+            JOptionPane.showMessageDialog(null, "Conversor de Monto");
+            double valor = Double.parseDouble(JOptionPane.showInputDialog("Monto (Pesos Colombianos):"));
+            double dolar = (valor) / 19.5;
+            JOptionPane.showMessageDialog(null, "Monto (Dólares): " + dolar);
+        } else if (dig == 2) {
+            JOptionPane.showMessageDialog(null, "Calculadora de Promedios");
+            float n1 = Float.parseFloat(JOptionPane.showInputDialog("Ingrese la Calificación 1:"));
+            float n2 = Float.parseFloat(JOptionPane.showInputDialog("Ingrese la Calificación 2:"));
+            float n3 = Float.parseFloat(JOptionPane.showInputDialog("Ingrese la Calificación 3:"));
+            float prom = (n1 + n2 + n3) / 3;
+            JOptionPane.showMessageDialog(null, "Promedio: " + prom);
+        } else if (dig == 3) {
+            JOptionPane.showMessageDialog(null, "Puntaje del Equipo A");
+            int puntaje = (3 * 3) + (0 * 0) + (2 * 1);
+            JOptionPane.showMessageDialog(null, "Puntaje: " + puntaje);
+        } else if (dig == 4) {
+            JOptionPane.showMessageDialog(null, "Verificador de Pares o Impares");
+            int numInt = Integer.parseInt(JOptionPane.showInputDialog("Digite un Número"));
+            if (numInt % 2 == 0) {
+                JOptionPane.showMessageDialog(null, "Par");
+            } else {
+                JOptionPane.showMessageDialog(null, "Impar");
+            }
+        } else if (dig == 5) {
+            JOptionPane.showMessageDialog(null, "Salir");
+        } else {
+            JOptionPane.showMessageDialog(null, "¡Error!\nNo existe dicha opción");
+        }
+    }
 }
 ```
 
