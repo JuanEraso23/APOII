@@ -469,7 +469,7 @@ public class Ej06 {
 }
 ```
 
-### Ejercicio 6.5
+### Ejercicio 7
 Menú con 5 opciones (While/Switch). 
 
 _Scanner_
@@ -550,7 +550,7 @@ public class Ej06 {
 }
 ```
 
-### Ejercicio 7
+### Ejercicio 8
 Imprima la tabla del número 8.
 
 _Sin Ingreso Por Teclado_
@@ -572,7 +572,7 @@ public class Ej07 {
 }
 ```
 
-### Ejercicio 8
+### Ejercicio 9
 Suma Continua.
 
 _Sin Ingreso Por Teclado_
@@ -597,7 +597,7 @@ public class Ej08 {
 }
 ```
 
-### Ejercicio 9
+### Ejercicio 10
 Menú con 3 opciones (While/Switch). 
 
 _Scanner_
@@ -715,7 +715,7 @@ public class Ej09 {
 }
 ```
 
-### Ejercicio 10
+### Ejercicio 11
 Imprime un Mensaje. 
 
 _JOptionPane_
@@ -733,7 +733,7 @@ public class Ej10 {
 }
 ```
 
-### Ejercicio 11
+### Ejercicio 12
 Introduce tu Nombre. 
 
 _JOptionPane_
@@ -752,7 +752,7 @@ public class Ej11 {
 }
 ```
 
-### Ejercicio 12
+### Ejercicio 13
 Calculadora Básica. 
 
 _JOptionPane_
@@ -801,8 +801,8 @@ public class Ej12 {
 }
 ```
 
-### Ejercicio 13
-Introduce tu Nombre. 
+### Ejercicio 14
+Cálculo de Factorial. 
 
 _JOptionPane_
 
@@ -856,7 +856,7 @@ public class Ej13 {
 }
 ```
 
-### Ejercicio 14
+### Ejercicio 15
 Muestra la nota maxíma o mínima del estud. 
 
 _JOptionPane_
@@ -897,7 +897,7 @@ public class Ej14 {
 }
 ```
 
-### Ejercicio 15
+### Ejercicio 16
 Calcular promedio del estud. (Try-Catch) 
 
 _JOptionPane_
