@@ -19,7 +19,7 @@ a modo de portafolio.
 
 1. Ingresa a la página oficial de Eclipse.
 
-[anchor](https://www.eclipse.org/)
+[anchor](https://www.eclipse.org/downloads/)
 
 2. Presiona la opción "Download".
 
